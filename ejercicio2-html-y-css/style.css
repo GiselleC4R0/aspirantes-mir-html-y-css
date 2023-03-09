@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.login {
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background:linear-gradient(#bd09b7, #6b4cf5) ;
+    color: #fff;
+    box-shadow: 20px 20px 10px black ;
+}
+.login-heading {
+    font-size: 35px;
+ }
+
+ .login-elements input {
+    padding: 7px;
+    width: 100%;
+    display: inline-block;
+    
+ }
+ .login-button {
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    top: 3px;
+    right: -180px;
+ }
+
+ /*Bonus*/
+
+ @media (min-width: 499px) {
+.login{ width: 100%;} 
+}
+
+@media (min-width: 500px) {
+    .login{ width: 300px;} 
+    }
+    
+
+

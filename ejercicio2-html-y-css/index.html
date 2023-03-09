@@ -7,7 +7,34 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+    <body>
+       <form class="login">
+        <h2 class="login-heading">Loging</h2>
+        <div class="login-elements">
+            <label>Email</label>
+            <input type="email">
+            <label>contraseña</label>
+            <input type="password"> 
+            <label >Género</label>
+            <input list="genero" name="genero">
+            <datalist id="genero">
+                <option  value="Masculino"></option> 
+                <option  value="Femenino"></option> 
+                <option  value="Prefiero no decirlo"></option> 
+            </datalist>
+        </div>
+       
+         <div>
+            <input type="checkbox">
+            <label>Acepto los términos</label>
+    
+
+         </div>  
+       
+        <button class="login-button" type="submit">Ingresar</button>
+
+
+       </form>
     
 </body>
 </html>
